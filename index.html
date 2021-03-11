@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Calendário</title>
+</head>
+<body>
+    <div id="calendario" style="display: inline-block; border: 1px solid red;">
+        <div class="calendar-header" style="display: flex; justify-content: space-between;">
+            <button type="button" id="button-back"><</button>
+            <div id="calendar-header-title" style="display: inline-block;"></div>
+            <button type="button" id="button-forward">></button>
+        </div>
+        <table id="table-calendar">
+            <thead id="table-calendar-head"></thead>
+            <tbody id="table-calendar-body"></tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
